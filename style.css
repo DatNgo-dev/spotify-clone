@@ -1,0 +1,101 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25vh 1fr;
+    grid-template-areas: 
+    "nav main";
+    overflow: none;
+}
+
+.nav-bar {
+    max-height: 100vh;
+    width: 100%;
+    grid-area: nav;
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.fa-spotify {
+    font-size: 2.5rem;
+}
+
+.spotify-logo {
+    font-size: 1.5rem;
+}
+
+.link {
+    color: #AAAAAA;
+}
+
+.nav-links > .link-groups > .link-group > i {
+    color: #AAAAAA;
+}
+
+.nav-links > .link-groups > .group-b > .link-group > i {
+    color: #AAAAAA;
+}
+
+.link-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.group-b {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-group {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    margin-left: 22px;
+}
+
+.footer {
+    
+}
+
+.right-side {
+    grid-area: main;
+    background-color: #131313;
+}
+
+.header {
+    background-color: #0E0E0E;
+}
