@@ -1,2 +1,5 @@
 # Spotify Clone
-<p>This project is recreating the spotify homepage https://open.spotify.com/ using HTML and CSS</p>
+
+This project is recreating the spotify homepage using HTML and CSS
+
+[Spotify Homepage](https://open.spotify.com/)
